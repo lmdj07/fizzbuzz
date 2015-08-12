@@ -23,7 +23,6 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     lumberjack (1.0.9)
-    metaclass (0.0.4)
     method_source (0.8.2)
     minitest (5.8.0)
     minitest-reporters (1.0.19)
@@ -31,8 +30,6 @@ GEM
       builder
       minitest (>= 5.0)
       ruby-progressbar
-    mocha (1.1.0)
-      metaclass (~> 0.0.1)
     nenv (0.2.0)
     notiffany (0.0.7)
       nenv (~> 0.1)
@@ -57,7 +54,6 @@ DEPENDENCIES
   guard
   guard-minitest
   minitest-reporters
-  mocha
   rake
 
 BUNDLED WITH

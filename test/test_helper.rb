@@ -1,9 +1,6 @@
 # The role of this file is to pull in all the required libraries and files
 require 'minitest/autorun'
-require 'mocha'
 require 'minitest/unit'
-require 'mocha/mini_test'
-
 require 'minitest/reporters'
 
 require_relative '../lib/fizzbuzz'

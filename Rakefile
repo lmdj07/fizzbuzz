@@ -2,7 +2,7 @@
 require "rake/testtask"
 
 Rake::TestTask.new do |t|
-  t.test_files = FileList['./test/rps_game/**/*.rb']
+  t.test_files = FileList['./test/fizzbuzz/**/*.rb']
 end
 desc "Run tests"
 
